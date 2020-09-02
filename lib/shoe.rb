@@ -9,6 +9,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS << brand
+    binding.pry
     if BRANDS.include?(brand) == "FALSE"
       BRANDS << brand
     end
