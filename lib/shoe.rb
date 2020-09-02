@@ -12,7 +12,6 @@ class Shoe
     if BRANDS.include?(brand) == "FALSE"
       BRANDS << brand
     end
-    binding.pry 
   end
 
   def cobble
