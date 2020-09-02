@@ -10,6 +10,7 @@ class Shoe
     @brand = brand
     BRANDS << brand
     if BRANDS.include?(brand) == false
+      binding.pry
       BRANDS << brand
     end
   end
